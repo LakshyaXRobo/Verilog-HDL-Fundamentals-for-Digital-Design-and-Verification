@@ -1,76 +1,38 @@
-# \# Full Adder (Verilog)
+# Full Adder (Verilog)
 
-# 
+## Description
+A Full Adder is a combinational circuit that adds three 1-bit inputs (A, B, Cin) and produces Sum and Carry outputs.
 
-# \## Description
+## Inputs
+- A (1-bit)
+- B (1-bit)
+- Cin (Carry In)
 
-# A Full Adder is a combinational circuit that adds three 1-bit inputs (A, B, Cin) and produces Sum and Carry outputs.
+## Outputs
+- Sum
+- Carry Out (Cout)
 
-# 
+## Truth Table
 
-# \## Inputs
+| A | B | Cin | Sum | Cout |
+|---|---|-----|-----|------|
+| 0 | 0 |  0  |  0  |  0   |
+| 0 | 0 |  1  |  1  |  0   |
+| 0 | 1 |  0  |  1  |  0   |
+| 0 | 1 |  1  |  0  |  1   |
+| 1 | 0 |  0  |  1  |  0   |
+| 1 | 0 |  1  |  0  |  1   |
+| 1 | 1 |  0  |  0  |  1   |
+| 1 | 1 |  1  |  1  |  1   |
 
-# \- A (1-bit)
+## Implementations
+- Behavioral
+- Dataflow
+- Structural
 
-# \- B (1-bit)
+## Tools Used
+- Xilinx Vivado
+- Verilog HDL
 
-# \- Cin (Carry In)
-
-# 
-
-# \## Outputs
-
-# \- Sum
-
-# \- Carry Out (Cout)
-
-# 
-
-# \## Truth Table
-
-# 
-
-# | A | B | Cin | Sum | Cout |
-
-# |---|---|-----|-----|------|
-
-# | 0 | 0 |  0  |  0  |  0   |
-
-# | 0 | 0 |  1  |  1  |  0   |
-
-# | 0 | 1 |  0  |  1  |  0   |
-
-# | 0 | 1 |  1  |  0  |  1   |
-
-# | 1 | 0 |  0  |  1  |  0   |
-
-# | 1 | 0 |  1  |  0  |  1   |
-
-# | 1 | 1 |  0  |  0  |  1   |
-
-# | 1 | 1 |  1  |  1  |  1   |
-
-# 
-
-# \## Implementations
-
-# \- Behavioral
-
-# \- Dataflow
-
-# \- Structural
-
-# 
-
-# \## Tools Used
-
-# \- Xilinx Vivado
-
-# \- Verilog HDL
-
-# 
-
-# \## Simulation
-
-# Waveform output is included in the specific folders folder.
-
+## Simulation
+Waveform output is included in this folder.
