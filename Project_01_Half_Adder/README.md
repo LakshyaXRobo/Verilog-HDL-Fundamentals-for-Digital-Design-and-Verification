@@ -1,14 +1,14 @@
-#  Half Adder (Verilog)
+# Half Adder (Verilog)
 
 # 
 
-# \## Description
+## Description
 
 # A Half Adder is a combinational circuit that adds two 1-bit binary numbers and produces a Sum and Carry output.
 
 # 
 
-# \## Inputs
+## Inputs
 
 # \- A (1-bit)
 
