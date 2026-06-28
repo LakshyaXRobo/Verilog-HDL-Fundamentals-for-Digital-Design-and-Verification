@@ -1,4 +1,4 @@
-# \# Half Adder (Verilog)
+#  Half Adder (Verilog)
 
 # 
 
