@@ -22,7 +22,7 @@
 ## Output
 
 * Y0
-* y1
+* Y1
 
 ## Truth Table
 
